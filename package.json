@@ -1,0 +1,19 @@
+{
+  "name": "ditto-webpack-example",
+  "version": "0.0.1",
+  "description": "Minimal example demonstrating how to integrate Ditto in a Webpack app.",
+  "main": "app/main.js",
+  "author": "DittoLive, Inc.",
+  "private": true,
+  "scripts": {
+    "start": "npx webpack-dev-server --progress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@dittolive/ditto": ">=0",
+    "copy-webpack-plugin": "^6.3.2",
+    "webpack": "<5",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
