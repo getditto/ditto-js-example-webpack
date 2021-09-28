@@ -6,7 +6,7 @@
   "author": "DittoLive, Inc.",
   "private": true,
   "scripts": {
-    "start": "npx webpack-dev-server --progress"
+    "start": "npx webpack serve --progress"
   },
   "dependencies": {},
   "devDependencies": {
